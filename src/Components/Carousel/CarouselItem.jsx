@@ -1,8 +1,7 @@
-import React from 'react';
+import React from "react";
 
-const CarouselItem = ({children}) => {
-    return (
-    );
-}
+const CarouselItem = ({ children }) => {
+  <div className="carousel-item"></div>;
+};
 
-export default CarouselItem
+export default CarouselItem;

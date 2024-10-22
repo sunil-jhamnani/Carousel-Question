@@ -1,14 +1,8 @@
-import React, { useState, createContext } from "react";
+import React from "react";
 import "./carousel.css";
 
-
 const Carousel = ({ children }) => {
-
-  return (
-      <div className="carousel">{children}</div>
-    </CarouselContext.Provider>
-  );
+  return <div className="carousel">{children}</div>;
 };
 
-export { CarouselContext };
 export default Carousel;
